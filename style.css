@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: new;
-    src: url(./fonts/NeueHaasDisplayMediu.ttf);
+    src: url(./fonts/NeueHaasDisplayMediu.woff2);
 }
 *{
     margin: 0;
@@ -634,7 +634,7 @@ nav{
 
         @font-face {
             font-family: new;
-            src: url(./fonts/NeueHaasDisplayMediu.ttf);
+            src: url(./fonts/NeueHaasDisplayMediu.woff2);
         }
         
         #page1{
