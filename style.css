@@ -642,7 +642,7 @@ nav{
         }
         
         #page1{
-            height: 60%;
+            min-height: 110vh;            
             width: 100%;
             position: relative;
         }
@@ -680,8 +680,8 @@ nav{
         #left h3{
             position: absolute;
             top: 6em;
-            width: 100%;
-            font-size: 1.3em;
+            width: 82%;
+            font-size: 1.4em;            
             color: #746f6f;
             line-height: 1.3em;
         }
@@ -802,12 +802,13 @@ nav{
             }
             
     #page2{
-        height: 100vh;
+        min-height: 126vh;        
         width: 100%;
         background-color: #EFEAE3;
         padding: 5vw 2vw;
         position: relative;
     }
+
 
     #moving-text{
         position: relative;
@@ -879,7 +880,7 @@ nav{
     }
 
     #bottom-part2 p{
-        font-size: 1.1em;
+        font-size: 1.5rem;        
         line-height: 1.3em;
         padding: 20px 4px;
         font-weight: 100;
@@ -920,7 +921,7 @@ nav{
     }
     
     #page3{
-        min-height: 100vh;
+        min-height: 113vh;
         width: 100%;
         background-color: #EFEAE3;
         padding: 4vw 0;
@@ -1163,6 +1164,152 @@ nav{
             z-index: 99;
     }
 
+    }
+
+    @media (max-width:375px) {
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+        
+        
+       #page1{
+        min-height: 108vh;
+        padding: 20px 20px ;
+       }
+        
+       #page1 video{
+        width: 90%;
+       }
+
+       #page2{
+        min-height: 120vh;
+       }
+
+       #left h3{
+        padding: 0 20px;
+       }
+
+       #elem-container h2{
+        color: rgba(55, 51, 51, 0.841);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+
+       #elem-container{
+        min-height: 105vh;
+       }
+
+       .nav-part2 h4{
+        padding: 10px 10px;
+       }
+
+       #fixed-image{
+        height: 10em;
+        width: 10em;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 99;
+        left: 12em;
+        top: 40%;
+        display: none;
+        background-size: cover;
+        background-position: center;
+        transition: linear all ease-in-out 3s;
+    }
+    #page4{
+        min-height: 80vh;
+    }
+
+    #page5{
+        min-height: 50vh;
+    }
+
+    #footer-menu1 {
+        position: absolute;
+        top: 52%;
+    }
+
+    #footer-menu1 h3{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    #footer-menu2 p{
+        position: absolute;
+        bottom: -110%;
+        font-size: 0.9rem;
+        left: -40%;
+        min-width: 100%;
+        color: rgb(217, 204, 204);
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    #footer-bottom h5 {
+        font-size: 1em;
+        color: white;
+        position: absolute;
+        top: 120%;
+    }
+
+       
+    }
+
+    @media (max-width: 414px) {
+        #page3{
+            min-height: 83vh;
+        }
+
+        #page4 h5{
+            position: absolute;
+            bottom: 0;
+            font-size: 1.5rem;
+        }
+
+        #scroll-down{
+            display: none;
+        }
+        #page1{
+            min-height: 72vh;
+        }
+
+        #page4{
+            min-height: 78vh;
+        }
+
+        #page4 h5 {
+            display: flex;
+            color: red;
+            position: absolute;
+            bottom: 13%;
+            font-size: 1rem;
+        }
+
+        @media (max-width:430px) {
+            #page1 h3{
+            font-size: 10px;
+            }
+
+           
+
+            .overlay h2{
+            font-family: 'Franklin Gothic Medium', 'ArialNarrow', Arial, sans-serif;
+            }
+
+           
+            #page3{
+            min-height: 80vh;
+            }
+            
+        }
     }
 
     /* <!-- 
