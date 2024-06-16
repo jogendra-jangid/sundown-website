@@ -989,13 +989,14 @@ nav{
 
         #footer h4 {
             position: absolute;
-            bottom: 103px;
-            font-size: 5em;
+            top: 52vh;
+            left: 7vh;
+            font-size: 8vh;
             color: rgb(255, 255, 255);
         }
 
         #footer-bottom h5 {
-            font-size: 1em;
+            font-size: 1.8vh;
             color: #c0cdbf;
         }
         #footer-bottom a {
@@ -1013,68 +1014,43 @@ nav{
         }
     }
 
-    @media(max-width:320px){
-        #page2-bottom h1 {
-            width: 90%;
+    @media(max-width:375px){
+        #page1 h3 {
+            padding: 10px;
+            font-size: 3vh;
+            line-height: 3.4vh;
+            width: 102%;
+            color: #867575;
             position: absolute;
-            top: 15%;
-            /* left: 20%; */
-            font-size: 1.5em;
+            top: 16%;
+            left: -1%;
         }
 
-        #page2 {
-            min-height: 147vh;
+        #bottom-part2 p {
+            font-size: 3.4vh;
+            line-height: 3.4vh;
+            padding: 11px 24px;
+            font-weight: 100;
+            color: #746f6f;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #page4 {
+            min-height: 82vh;
             width: 100%;
             background-color: #EFEAE3;
-            padding: 5vw 2vw;
+            padding: 8vw 2vw;
             position: relative;
-        }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }   
 
-        #footer-menu2 p {
-            font-size: 1.2em;
-            line-height: 1.2em;
-            width: 80%;
-            color: #7e887d;
-        }
-
-        #footer h4 {
-            position: absolute;
-            bottom: 103px;
-            font-size: 4.3em;
-            color: white;
-            
-        }
-        #footer-bottom h5 {
-            font-size: 0.8em;
-            color: #7e887d;
-        }
-        #footer-bottom a {
-            font-size: 0.9em;
-            color: #7e887d;
-        }
-
-        #footer {
-            position: fixed;
-            bottom: 0;
-            z-index: 9;
-            min-height: 100vh;
-            width: 100%;
-            background-color: #000;
-            padding: 0.4em;
-        }
-
-        #fixed-image {
-            height: 12em;
-            width: 9em;
-            border-radius: 10px;
-            position: fixed;
-            z-index: 99;
-            left: 34%;
-            top: 20%;
-            display: none;
-            background-size: cover;
-            background-position: center;
-            transition: linear all ease-in-out 3s;
+        #contact h3 {
+            margin-top: 13vh;
+            font-size: 4vh;
+            text-align: center;
+            color: rgba(175, 8, 247, 0.898);
         }
     }
    
